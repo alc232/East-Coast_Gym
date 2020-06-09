@@ -67,18 +67,20 @@
       </div>
     </header>
 
+    <div class="container"></div>
     <div class="container-fluid callout-container">
       <!-- Callout -->
+      <div class="opaque-overlay">&nbsp;</div>
       <div class="row">
-        <div class="col-12 col-md-12 col-sm-12">
-          <section class="callout jumbotron-custom text-center">
-            <h1 class="jumbotron">Number 1 Gym in East Lothian.</h1>
-            <hr class="block-divider block-divider--red" />
+        <div class="col-12">
+          <section class="callout jumbotron text-center">
+            <h1 class="jumbotron-header">Number 1 Gym in East Lothian.</h1>
+            <hr class="block-divider block-divider--orange" />
             <p class="lead">
               Sign up today and the first 2 months are free!
               <s class="d-none d-sm-inline">£23.99</s>
               <span class="d-inline d-sm-none"><br /></span>
-              <strong class="lead-custom"><mark>First one is free!</mark></strong>
+              <strong><mark>First one is free!</mark></strong>
             </p>
             <p>
               <button
@@ -94,10 +96,10 @@
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-12 p-5">
-          <h3 class="jumbotron jumbotron-custom">About Us... <i class="fas fa-dumbbell"></i></h3>
+        <div class="col-md-6 p-5">
+          <h3>About Us... <i class="fas fa-dumbbell"></i></h3>
           <p>
             About Section This is the best gym with the hardest and smartest
             working personal trainers . We offer a variety of sessions from
@@ -105,10 +107,19 @@
             have trainers who specialise in back, knee and osteoperois rehab.
             With the latest gear from Primal Strength, we have over 130 pieces
             of equipment. With a recent refurb we are more than ready to return
-            to action after the coronavirus!
+            to action after the coronavirus!<br /><br />Opening Hours: <br />
+            Monday: 6am - 11pm<br />
+            Tuesday:6am-11pm<br />
+            Wednesday:6am-11pm*<br />
+            Thursday: 6am-11pm<br />
+            Friday: 8am-9pm<br />
+            Saturday: 6am-8pm<br />
+            Sunday: 8am-8pm<br />
+            Please note on wednesdays we close between 12 and 2pm for staff
+            training, apologies for any inconvenience!
           </p>
         </div>
-        <div class="col-md-6 p-5">
+        <div class="col-md-6">
           <img
             class="img-fluid"
             src="https://images.unsplash.com/photo-1585681614545-cd8c7b9d92b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
@@ -117,90 +128,7 @@
         </div>
       </div>
     </div>
-    <!-- carousel -->
-    <div class="container mt-5 mb-5">
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="https://images.unsplash.com/photo-1580086319619-3ed498161c77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-              alt="First slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="https://images.unsplash.com/photo-1514994444123-10094655bdb5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
-              alt="Third slide"
-            />
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleIndicators"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-    <div class="container-fluid container-custom-time text-center">
-      <div class="row">
-        <div class="col-md-6 p-5">
-          <h3 class="jumbotron">Opening Times: <i class="fas fa-clock"></i></h3>
-          <p>
-            Monday: 6am - 11pm<br />
-            Tuesday: 6am-11pm<br />
-            Wednesday: 6am-11pm*<br />
-            Thursday: 6am-11pm<br />
-            Friday: 8am-9pm<br />
-            Saturday: 6am-8pm<br />
-            Sunday: 8am-8pm<br />
-            Please note on wednesdays we close between 12pm and 2pm for staff
-            training, apologies for any inconvenience!
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-    
-    
-    </footer>
-
-    <!-- /.features -->
+     <!-- /.features -->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -254,8 +182,15 @@
       </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

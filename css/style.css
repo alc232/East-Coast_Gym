@@ -17,21 +17,20 @@ body{
 }
 
 .navbar{
-    padding:0;
-    margin:0;
-    width: 100%;
-    height: auto;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
 /*-----------------------------------Btn */
 
-.btn{
+.btn-custom{
     color:#fafafa;
     border-radius: 20%;
     font-weight: 500;
     background-color: #BB0A21;
+}
+.btn-custom:hover{
+    background: #7a0111;
 }
 
 /*----------------------------------- container */
@@ -51,16 +50,10 @@ body{
     position: relative;
 }
 
-.about-container{
-    padding:0;
-    margin: 0;
-    color:#fafafa;
-}
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #444;
 }
 
 .block-divider--red {
@@ -68,64 +61,36 @@ body{
 }
 /*----------------------------------- Jumbotron */
 
-.jumbotron{
+.jumbotron {
     background: transparent;
 }
+.jumbotron-custom{
+    color:#BB0A21;
+}
 
-.jumbotron-header {
+/*-- carousel -- */
+.lead{
+    font-weight: 700;
+}
+.lead-custom{
+    background-color: #BB0A21;
+    color:#fafafa;
+}
+
+
+/*-- Custom -- */
+
+.container-custom-time{
+    background-color: #004444;
+    color:#fafafa;
+}
+
+.jumbotron-custom-header {
     color:#BB0A21;
     font-weight:700;    
 }
 
-.block{
+.block-custom{
     color:#BB0A21;
-    font-weight:700;
-    padding-left: 2rem;
-}
-/*----------------------------------- lead */
-
-.lead{
-    color:#f7f5f5;
-    font-weight: 600;
-}
-
-strong{
-    color:#fafafa;
-    background-color: #BB0A21;
-}
-
-/*----------------------------------- paragraphs */
-
-.inline-block{
-    text-align:center;
-    margin:0;
-    padding: 2rem;
-    border: 0;
-    height: 300px;
-    width: 500px;
-}
-
-/*----------------------------------- image */
-
-.inline{
-    display:flex;
-}
-/* .row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
-  padding: 5px;
-} */
-
-/*----------------------------------- carousel */
-#carouselExampleSlidesOnly{
-    width:50%!important;
-}
-
-
-.interactive-container{
-    width: auto;
-    height: auto;
+    font-weight:700;;
 }
