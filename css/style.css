@@ -83,6 +83,7 @@ body{
 .container-custom-time{
     background-color: #004444;
     color:#fafafa;
+    text-align: center;
 }
 
 .jumbotron-custom-header {
@@ -93,4 +94,20 @@ body{
 .block-custom{
     color:#BB0A21;
     font-weight:700;;
+}
+
+.table-custom{
+    height: 100vh;
+
+    background: url('../images/gym-image3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
