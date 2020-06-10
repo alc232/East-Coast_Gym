@@ -66,19 +66,37 @@ body{
 }
 .jumbotron-custom{
     color:#BB0A21;
+    font-weight: 700;
 }
 
 /*-- carousel -- */
 .lead{
     font-weight: 700;
+    color:#BB0A21;
 }
-.lead-custom{
+.lead .lead-custom{
     background-color: #BB0A21;
     color:#fafafa;
 }
 
 
 /*-- Custom -- */
+
+.container-callout-custom{
+    height: 100vh;
+
+    background: url('../images/fac-callout.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
 
 .container-custom-time{
     background-color: #BB0A21;
