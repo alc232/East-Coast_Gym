@@ -81,7 +81,7 @@ body{
 /*-- Custom -- */
 
 .container-custom-time{
-    background-color: #004444;
+    background-color: #BB0A21;
     color:#fafafa;
     text-align: center;
 }
@@ -105,9 +105,12 @@ body{
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     position: relative;
+    font-size:18px;
+}
+
+/* footer */
+
+li{
+    color:#fafafa;
 }
