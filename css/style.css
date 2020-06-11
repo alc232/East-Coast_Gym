@@ -132,3 +132,10 @@ body{
 li{
     color:#fafafa;
 }
+
+/* img */
+
+.img-fluid{
+    height:400px;
+    width:500px;
+}
