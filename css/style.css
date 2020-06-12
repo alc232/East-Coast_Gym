@@ -82,6 +82,8 @@ body{
 
 /*-- Custom -- */
 
+
+
 .container-callout-custom{
     height: 100vh;
 
@@ -138,4 +140,26 @@ li{
 .img-fluid{
     height:400px;
     width:500px;
+    border: solid 1px #fafafa;
+}
+
+/* contact */
+
+.container-fluid-custom{
+    background-color:green;
+}
+.container-callout-contact{
+    height: 100vh;
+
+    background: url('../images/contact.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
