@@ -71,7 +71,7 @@
       <div class="row">
         <div class="col-12 col-md-12 col-sm-12">
           <section class="callout jumbotron-custom text-center">
-            <h1 class="jumbotron jumbotron-custom">Contact Us</h1>
+            <h1 class="jumbotron jumbotron-custom"><strong>Contact Us</strong></h1>
           </section>
         </div>
       </div>
@@ -140,13 +140,45 @@
             <h3 class="jumbotron jumbotron-custom">
               Find Us... <i class="fas fa-compass"></i>
             </h3>
-            <p>
+            <p class="text-center">
               East Coast Gyms <br /><br />
               123 Muirfield industrial Estate <br />
               Gullane <br />
               East Lothian <br />
               EH31 2HQ
             </p>
+          </div>
+          
+          <div 
+            style="
+              overflow: hidden;
+              resize: none;
+              max-width: 100%;
+              width: 650px;;
+              height: 500px;
+              padding: 9px;
+            "
+            class="col-12 col-md-6 col-sm-12"
+          >
+            <div
+              id="embeddedmap-display"
+              style="height: 100%; width: 100%; max-width: 100%;"
+            >
+              <iframe
+                style="height: 100%; width: 100%; border: 0;"
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=gullane&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <style>
+              #embeddedmap-display img.text-marker {
+                max-width: none !important;
+                background: none !important;
+              }
+              img {
+                max-width: none;
+              }
+            </style>
           </div>
         </div>
       </div>

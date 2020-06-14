@@ -67,6 +67,7 @@ body{
 .jumbotron-custom{
     color:#BB0A21;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 /*-- carousel -- */
@@ -152,6 +153,24 @@ li{
     height: 100vh;
 
     background: url('../images/contact.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* trainer */
+
+.container-callout-trainer{
+    height: 100vh;
+
+    background: url('../images/trainer-dream.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
