@@ -9,11 +9,12 @@ body{
 
 /*----------------------------------- navbar */
 .navbar-container{
-    position:absolute;
+    position: fixed;
     padding: 0;
     margin: 0;
     width: 100%;
     height: auto;
+    z-index:1;
 }
 
 .navbar{
@@ -146,8 +147,14 @@ li{
 
 /* contact */
 
-.container-fluid-custom{
-    background-color:green;
+.container-custom-contact{
+    background-color: #BB0A21;
+}
+
+.jumbotron-custom-contact{
+    background-color: #BB0A21;
+    text-align: center;
+    border: 2px solid #000000;
 }
 .container-callout-contact{
     height: 100vh;
