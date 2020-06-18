@@ -33,6 +33,11 @@ body{
 .btn-custom:hover{
     background: #7a0111;
 }
+.btn-custom-trainer{
+    color:#BB0A21;
+    background-color: #fafafa;
+    font-weight: 500;
+}
 
 /*----------------------------------- container */
 .callout-container {
@@ -117,8 +122,21 @@ body{
     color:#BB0A21;
     font-weight:700;;
 }
+.container-callout-membership{
+      height: 100vh;
 
+    background: url('../images/membership.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
 /* footer */
 
 li{
@@ -131,6 +149,13 @@ li{
     height:400px;
     width:500px;
     border: solid 3px #fafafa;
+
+}
+.img-fluid-trainer{
+    height:400px;
+    width:500px;
+    margin-top: 33em;
+
 }
 
 /* contact */
@@ -198,7 +223,20 @@ li{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
+    margin: auto;
+}
+
+
+/* modal 2 */
+.modal-title{
+    color:#000000!important;
+}
+.modal-custom{
+    background-color: #000000;
+}
+
+/* membership */
+
+.pt-3{
+    border: solid 3px #BB0A21;
 }

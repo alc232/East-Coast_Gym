@@ -82,7 +82,7 @@
       <div class="row">
        <div class="col-md-6 pt-1 text-center">
           <img
-            class="img-fluid img-custom "
+            class="img-fluid-trainer img-custom "
             src="images/tony-pt.jpg"
             alt=""
           />
@@ -91,9 +91,9 @@
           <h3 class="jumbotron jumbotron-custom text-center">
             Tony Corleoni <i class="fas fa-running"></i>
           </h3>
-    
-    
-    <p><strong>Tony The Tank</strong> is our longest serving PT, with over 23 years experience, Tony knows just about everything there is to know. He has coached professional athletes, mother, uncles and best friends, no stone to big or to small! Here are his credentials:</p>
+    <p><button class="btn btn-lg btn-custom-trainer"
+                data-toggle="modal"
+                data-target="#signUpModal2" href="/login"><strong>Tony</strong></button> is our longest serving PT, with over 23 years experience, Tony knows just about everything there is to know. He has coached professional athletes, mother, uncles and best friends, no stone to big or to small! Here are his credentials:</p>
     <ul>
     <li>Level 3 Personal Trainer</li>
     <li>Level 4 Back Injury Specialist</li>
@@ -104,11 +104,12 @@
     </div>
     </div>
     </div>
+
     <div class="container-fluid pt-3 ">
       <div class="row">
        <div class="col-md-6 pt-1 text-center">
           <img
-            class="img-fluid img-custom "
+            class="img-fluid-trainer img-custom "
             src="images/my-pic.jpg"
             alt=""
           />
@@ -119,7 +120,9 @@
           </h3>
     
     
-    <p><strong>Allan Chalmers</strong> is a former professional footballer, he has also competed internationally in Weightlifting. With nearly 8 years as a personal trainer he is a great asset to our squad: </p>
+    <p><button class="btn btn-lg btn-custom-trainer"
+                data-toggle="modal"
+                data-target="#signUpModal2" href="/login"><strong>Allan</strong></button> is a former professional footballer, he has also competed internationally in Weightlifting. With nearly 8 years as a personal trainer he is a great asset to our squad: </p>
     <ul>
     <li>Level 3 Personal Trainer</li>
     <li>Sport Specific Programming</li>
@@ -136,7 +139,7 @@
       <div class="row">
        <div class="col-md-6 pt-1 text-center container-custom-trainer">
           <img
-            class="img-fluid img-custom "
+            class="img-fluid-trainer img-custom "
             src="images/mikko.jpg"
             alt=""
           />
@@ -147,7 +150,9 @@
           </h3>
     
     
-    <p><strong>Mikko Salo</strong> is another former professional footballer, from Finland. He has competed at the highest level of Crossfit at the Crossfit Games winning the competition and crowned the Fittest man on Earth, prior to this he worked a a firefighter in Pori. His knowlege and skills are invaluable: </p>
+    <p><button class="btn btn-lg btn-custom-trainer"
+                data-toggle="modal"
+                data-target="#signUpModal2" href="/login"><strong>Mikko</strong></button> is another former professional footballer, from Finland. He has competed at the highest level of Crossfit at the Crossfit Games winning the competition and crowned the Fittest man on Earth, prior to this he worked a a firefighter in Pori. His knowlege and skills are invaluable: </p>
     <ul>
     <li>Level 3 Personal Trainer</li>
     <li>Crossfit Level 2 Instructor</li>
@@ -161,7 +166,7 @@
     </div>
     </div>
     </body>
-
+    
     <footer>
       <footer class="page-footer font-small blue pt-4">
         <!-- Footer Links -->
@@ -262,13 +267,12 @@
         <!-- Copyright -->
       </footer>
     </footer>
-
-    <!-- /.features -->
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+    <!-- modal -->
+    <div class="modal modal-custom" tabindex="-1" role="dialog" id="signUpModal2">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Sign Up Now!</h5>
+            <h5 class="modal-title modal-custom">Classes!</h5>
             <button
               type="button"
               class="close"
@@ -278,9 +282,18 @@
               <span aria-hidden="true"></span>
             </button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body modal-custom">
             <form>
-              <div class="form-group">
+              <div class="form-group modal-custom">
+              <p class="modal-custom">Book your Classes here:</p>
+              <ul>
+              <li>Crossfit</li>
+              <li>Weightlifting</li>
+              <li>Body Compositions</li>
+              <li>Strength and Conditioning</li>
+              <li>Aqua Fitness</li>
+              <li>Swim Instructor</li>
+              </ul>
                 <label for="exampleInputEmail1">Email address</label>
                 <input
                   type="email"
@@ -310,13 +323,12 @@
                   placeholder="Repeat Password"
                 />
               </div>
-              <button type="submit" class="btn btn-custom">Submit</button>
+              <button type="submit" class="btn btn-custom">Book Now!</button>
             </form>
           </div>
         </div>
       </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
