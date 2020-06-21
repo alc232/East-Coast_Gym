@@ -146,15 +146,10 @@ li{
 /* img */
 
 .img-fluid{
-    height:400px;
-    width:500px;
+    height: 500px;
+    width: 630px;
+    padding: 2em;
     border: solid 3px #fafafa;
-
-}
-.img-fluid-trainer{
-    height:400px;
-    width:500px;
-    margin-top: 33em;
 
 }
 
@@ -224,6 +219,22 @@ li{
     width: 200px;
     border-radius: 50%;
     margin: auto;
+}
+.container-fluid-tony{
+    background-color:#BB0A21;
+    color:#000000;
+    font-weight: 500;
+}
+
+.container-fluid-allan{
+    background-color: #000000;
+    color:#BB0A21;
+    font-weight: 500;
+}
+.container-fluid-mikko{
+    background-color:#BB0A21;
+    color:#000000;
+    font-weight: 500;
 }
 
 
