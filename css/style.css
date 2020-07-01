@@ -81,14 +81,30 @@ body{
     font-weight: 700;
     color:#BB0A21;
 }
-.lead .lead-custom{
+.lead-custom{
     background-color: #BB0A21;
     color:#fafafa;
+    letter-spacing: 2px;
+    font-size: 32px;
 }
 
 
 /*-- Custom -- */
+.unstlyed-list{
+    list-style-type: none;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
 
+#display-custom{
+    overflow: hidden;
+    resize: none;
+    max-width: 100%;
+    width: 650px;
+    height: 500px;
+    padding: 9px;
+}
 
 
 .container-callout-custom{
@@ -238,12 +254,16 @@ li{
 }
 
 
-/* modal 2 */
-.modal-title{
-    color:#000000!important;
+/* modal */
+
+.modal{
+    color:#000000;
 }
+
 .modal-custom{
-    background-color: #000000;
+
+color:#fafafa;
+background-color: #000000;
 }
 
 /* membership */

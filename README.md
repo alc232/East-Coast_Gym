@@ -43,7 +43,8 @@ These are accomplished by:
 - The opening hours are on the home page, easily readable and accessible.
 - The contact page gives the address and a GoogleMap. They can also sign up here.
 - The large Header images on each pages give the viewer clear insight on what information should be on the page.
-- 
+- Each trainer has a image and a list of credentials making it easy for selection.
+- Facilities outlines what is offer through images again and text with Description.
 
 ### Non-Members
 
@@ -56,4 +57,31 @@ These are accomplished by:
 
 These are accomplished by: 
 
+- Ease of navigation, with a clean layout on any platform or device.
+- Opening hours are found on the homepage. 
+- They have contact page where they can register interests, and a class booking system via our sign up modal.
+- Contact has the full address and a interactive GoogleMap.
 >
+
+## User Experience
+
+My website has been built to be user friendly on any device, and across all different browsers.
+
+The page itself is coloured in Gym Colours. Each page has expressive bright images that represent the facility well. Ive used a deep red to attract the uer to the sign up buttons. 
+
+The navbar is located at the top and has white writing against a dark backdrop making it bold and easy to read. 
+
+(am i responsive image to go here!)
+
+### Features
+
+The site uses many features that are native to bootstrap:
+
+- Image carousels to give users a visual representation of the Gym.
+- Navbar always stays at the top of the screen, collapses when on mobile to hamburger style.
+- Modal windows on home page to sign up to the gym. And the Trainers page to show what classes are available and how you can register.
+- Table is used to differentiate opening and closing times. 
+- GoogleMap is Used on contact page. Fully interactive.
+
+## Testing and Changes
+
