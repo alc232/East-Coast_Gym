@@ -65,6 +65,8 @@ These are accomplished by:
 
 ## User Experience
 
+![alt text]((https://alc232.github.io/MS1..2/images/my-responsive-image.jpg)
+
 My website has been built to be user friendly on any device, and across all different browsers.
 
 The page itself is coloured in Gym Colours. Each page has expressive bright images that represent the facility well. Ive used a deep red to attract the uer to the sign up buttons. 
