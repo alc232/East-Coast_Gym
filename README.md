@@ -87,3 +87,4 @@ The site uses many features that are native to bootstrap:
 
 ## Testing and Changes
 
+I have validated my code using W3C, I am going to 
