@@ -18,7 +18,7 @@ The site has been deployed to github and is accessible on [Github Pages](https:/
 ## Wireframe
 
 I have drafted up a wireframe using Balsamiq. There were a few tweaks in design however the fundamentals are the same!
-This can be found [here]('..Wireframe/New-Project-1.pdf')
+This can be found [here](https://github.com/alc232/MS1..2/blob/master/Wireframe/New-Project-1.pdf)
 >
 
 ## Breakdown
@@ -73,9 +73,8 @@ The page itself is coloured in Gym Colours. Each page has expressive bright imag
 
 The navbar is located at the top and has white writing against a dark backdrop making it bold and easy to read. 
 
-(am i responsive image to go here!)
-
-### Features
+>
+## Features
 
 The site uses many features that are native to bootstrap:
 
@@ -84,7 +83,57 @@ The site uses many features that are native to bootstrap:
 - Modal windows on home page to sign up to the gym. And the Trainers page to show what classes are available and how you can register.
 - Table is used to differentiate opening and closing times. 
 - GoogleMap is Used on contact page. Fully interactive.
-
+>
 ## Testing and Changes
 
-I have validated my code using W3C, I am going to 
+I have validated my HTML code using [W3C Validator Check](https://validator.w3.org/.com).
+
+Speed tests were done with [UPTRENDS](https://uptrends.com).
+
+The page was tested on a few different platforms to ensure correct user experience on different platfroms and screen sizes.
+
+## Issues and Changes
+
+- GoogleMap was styled in HTML, changed this and styled using CSS.
+- I had issues with my images on [Trainers-Page](https://alc232.github.io/MS1..2/trainers.html). I replaced the styling of the images to ensure I could align preview them to give the best experience possible.
+- Also on the [Trainers-Page](https://alc232.github.io/MS1..2/trainers.html) I added a modal window so potential clients could sign up for classes.
+- I also replaced the idea of creating a banner and opted for large display images to show off the excellent facilities. Using large headings to attract the users attention.
+
+## Scalability
+
+- Analytics tools should be implemented to monitor user behavior in relation to the website's goals.
+- Adding an online shop for products or merchandise would be a great benefit to the site and the general branding of the company.
+- Adding a weekly/monthly newsletter would be a great benifit. These can showcase changes to classes or introduction of new products and services.
+>
+## Technology
+
+### Languages
+- HTML
+- CSS
+- Bootstrap
+
+### Tools
+- Gitpod: Used for creating and editing code
+- Balsamiq: Used to create wireframes
+- 
+- [Font Awesome](https://fontawesome.com/).
+- [Embedded Map](https://www.embed-map.com/) To add the map on Contact Page.
+- [W3C Validator Check](https://validator.w3.org/.com) to validate HTML.
+- [UPTRENDS](https://uptrends.com) to test the speed of the webpage.
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en) This is a google Chrome extension and is brilliant for checking multiple screens at one time.
+>
+## Media
+
+![alt text](https://alc232.github.io/MS1..2/images/my-pic.jpg)
+
+- Images using throughout are courteously used from [UNSPLASH](https://unsplash.com/).
+- Image of Mikko Salo from [DSLR INSPIRATIONS](http://blog.sevanmatossian.com/?tag=mikko-salo).
+- Image of myself used as a personal trainer [LinkedIn](https://www.linkedin.com/feed/).
+>
+## Acknowledgments
+
+- Huge thank you to [Code Institute](https://codeinstitute.net/) you gave me the tools neccessary to make this happen.
+
+- Biggest thank you to [Felipe Alarcon](https://github.com/felipe-alarcon) without you I would have a less porfessional and less interactive site. Your wisdom, guidance and patience are greatly appreciated. The feedback is thorough and always extremley helpful, you have pushed me to new heights.
+
+
