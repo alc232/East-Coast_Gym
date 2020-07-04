@@ -92,6 +92,10 @@ Speed tests were done with [UPTRENDS](https://uptrends.com).
 
 The page was tested on a few different platforms to ensure correct user experience on different platfroms and screen sizes.
 
+I used [Pingdom](https://pingdom.com) to check the speed of my webpage and how quick it could be uploaded. These are my results thus far:
+
+![alt text](https://alc232.github.io/MS1..2/images/speed-pingdom.jpg)
+
 ## Issues and Changes
 
 - GoogleMap was styled in HTML, changed this and styled using CSS.
@@ -104,6 +108,7 @@ The page was tested on a few different platforms to ensure correct user experien
 - Analytics tools should be implemented to monitor user behavior in relation to the website's goals.
 - Adding an online shop for products or merchandise would be a great benefit to the site and the general branding of the company.
 - Adding a weekly/monthly newsletter would be a great benifit. These can showcase changes to classes or introduction of new products and services.
+- Next time I also plan to use [tinypng](https://tinypng.com/) as this will greatly reduce the size of my image files thus create a much faster responsive web page.
 >
 ## Technology
 

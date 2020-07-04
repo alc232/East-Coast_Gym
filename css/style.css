@@ -74,6 +74,14 @@ body{
     color:#BB0A21;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 32px;
+}
+.jumbotron-custom-heading{
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #BB0A21;
 }
 
 /*-- carousel -- */
@@ -196,6 +204,7 @@ li{
     background-color: #BB0A21;
     text-align: center;
     border: 2px solid #000000;
+    font-size: 32px;
 }
 .container-callout-contact{
     height: 100vh;
@@ -240,17 +249,20 @@ li{
     background-color:#BB0A21;
     color:#000000;
     font-weight: 500;
+    font-size: 24px;
 }
 
 .container-fluid-allan{
     background-color: #000000;
     color:#BB0A21;
     font-weight: 500;
+    font-size: 24px;
 }
 .container-fluid-mikko{
     background-color:#BB0A21;
     color:#000000;
     font-weight: 500;
+    font-size: 24px;
 }
 
 
