@@ -94,7 +94,7 @@ The page was tested on a few different platforms to ensure correct user experien
 
 I used [Pingdom](https://pingdom.com) to check the speed of my webpage and how quick it could be uploaded. These are my results thus far:
 
-![alt text](https://alc232.github.io/MS1..2/images/speed-pingdom.jpg)
+![alt text](https://github.com/alc232/MS1..2/blob/master/images/Speed-pingdom.jpg)
 
 ## Issues and Changes
 
@@ -120,7 +120,6 @@ I used [Pingdom](https://pingdom.com) to check the speed of my webpage and how q
 ### Tools
 - Gitpod: Used for creating and editing code
 - Balsamiq: Used to create wireframes
-- 
 - [Font Awesome](https://fontawesome.com/).
 - [Embedded Map](https://www.embed-map.com/) To add the map on Contact Page.
 - [W3C Validator Check](https://validator.w3.org/.com) to validate HTML.
