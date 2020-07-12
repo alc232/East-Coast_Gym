@@ -1,4 +1,5 @@
-# East Coast Gyms
+![alt text](https://alc232.github.io/MS1..2/images/gym-logo.png)
+# East Coast Gyms 
 
 ## Description
 
@@ -13,7 +14,7 @@ This is a front end design for a fictional gym based in East Lothian. The purpos
 
 ## Deployment and Live page
 
-The site has been deployed to github and is accessible on [Github Pages](https://github.com/alc232/MS1..2)
+The site has been deployed to github and is accessible on [Github Pages](https://alc232.github.io/East-Coast_Gym/)
 >
 ## Wireframe
 
