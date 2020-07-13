@@ -66,7 +66,7 @@ These are accomplished by:
 
 ## User Experience
 
-![alt text](https://alc232.github.io/MS1..2/images/my-responsive-image.jpg)
+![alt text](https://github.com/alc232/East-Coast_Gym/blob/master/Wireframe/New-Project-1.pdf)
 
 My website has been built to be user friendly on any device, and across all different browsers.
 
