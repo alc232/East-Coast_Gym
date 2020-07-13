@@ -1,4 +1,4 @@
-![alt text](https://alc232.github.io/MS1..2/images/gym-logo.png)
+![alt text](https://alc232.github.io/East-Coast_Gym/images/gym-logo.png)
 # East Coast Gyms 
 
 ## Description
@@ -19,7 +19,7 @@ The site has been deployed to github and is accessible on [Github Pages](https:/
 ## Wireframe
 
 I have drafted up a wireframe using Balsamiq. There were a few tweaks in design however the fundamentals are the same!
-This can be found [here](https://github.com/alc232/MS1..2/blob/master/Wireframe/New-Project-1.pdf)
+This can be found [here](https://alc232.github.io/East-Coast_Gym/Wireframe/New-Project-1.jpg)
 >
 
 ## Breakdown
@@ -66,7 +66,7 @@ These are accomplished by:
 
 ## User Experience
 
-![alt text](https://github.com/alc232/East-Coast_Gym/blob/master/Wireframe/New-Project-1.pdf)
+![alt text](https://alc232.github.io/East-Coast_Gym/images/my-responsive-image.jpg)
 
 My website has been built to be user friendly on any device, and across all different browsers.
 
@@ -95,13 +95,13 @@ The page was tested on a few different platforms to ensure correct user experien
 
 I used [Pingdom](https://pingdom.com) to check the speed of my webpage and how quick it could be uploaded. These are my results thus far:
 
-![alt text](https://github.com/alc232/MS1..2/blob/master/images/Speed-pingdom.jpg)
+![alt text](https://alc232.github.io/East-Coast_Gym/images/Speed-pingdom.jpg)
 
 ## Issues and Changes
 
 - GoogleMap was styled in HTML, changed this and styled using CSS.
-- I had issues with my images on [Trainers-Page](https://alc232.github.io/MS1..2/trainers.html). I replaced the styling of the images to ensure I could align preview them to give the best experience possible.
-- Also on the [Trainers-Page](https://alc232.github.io/MS1..2/trainers.html) I added a modal window so potential clients could sign up for classes.
+- I had issues with my images on [Trainers-Page](https://alc232.github.io/East-Coast_Gym/trainers.html). I replaced the styling of the images to ensure I could align preview them to give the best experience possible.
+- Also on the [Trainers-Page](https://alc232.github.io/East-Coast_Gym/trainers.html) I added a modal window so potential clients could sign up for classes.
 - I also replaced the idea of creating a banner and opted for large display images to show off the excellent facilities. Using large headings to attract the users attention.
 
 ## Scalability
@@ -129,7 +129,7 @@ I used [Pingdom](https://pingdom.com) to check the speed of my webpage and how q
 >
 ## Media
 
-![alt text](https://alc232.github.io/MS1..2/images/my-pic.jpg)
+![alt text](https://alc232.github.io/East-Coast_Gym/images/my-pic.jpg)
 
 - Images using throughout are courteously used from [UNSPLASH](https://unsplash.com/).
 - Image of Mikko Salo from [DSLR INSPIRATIONS](http://blog.sevanmatossian.com/?tag=mikko-salo).
