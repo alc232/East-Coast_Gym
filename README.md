@@ -19,7 +19,7 @@ The site has been deployed to github and is accessible on [Github Pages](https:/
 ## Wireframe
 
 I have drafted up a wireframe using Balsamiq. There were a few tweaks in design however the fundamentals are the same!
-This can be found [here](https://alc232.github.io/East-Coast_Gym/wireframe/new-project-1.jpg)
+This can be found [here](https://github.com/alc232/East-Coast_Gym/blob/master/wireframe/new-project-1.pdf)
 >
 
 ## Breakdown
